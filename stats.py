@@ -3,11 +3,14 @@ def get_book_text(filepath):
         file_content = f.read()
     return file_content
 
+
 def word_counter(content):
     return len(content.split())
 
+
 def sort_on(dict):
     return dict["num"]
+
 
 def char_stats(content):
     stats = {}
