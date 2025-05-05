@@ -1,6 +1,6 @@
-from stats import word_counter
-from stats import get_book_text
-from stats import char_stats
+from .stats import word_counter
+from .stats import get_book_text
+from .stats import char_stats
 import sys
 
 
@@ -21,4 +21,5 @@ def main():
     return
 
 
-main()
+if __name__ == "__main__":
+    main()
