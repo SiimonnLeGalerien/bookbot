@@ -8,5 +8,5 @@ Make sure you have Python 3 installed.
 ``` bash
 git clone https://github.com/siimonnlegalerien/bookbot.git bookbot
 cd bookbot
-python3 main.py
+pip install -e .
 ```
